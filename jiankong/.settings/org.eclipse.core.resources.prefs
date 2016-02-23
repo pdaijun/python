@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//server/conf/hosts.py=utf-8
+encoding//server/conf/services/data_process.py=utf-8
+encoding//server/conf/services/generic.py=utf-8
+encoding//server/conf/templates.py=utf-8
+encoding//server/core/global_setting.py=utf-8
+encoding//server/core/serialis.py=utf-8

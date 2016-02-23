@@ -1,0 +1,14 @@
+<session name='cap_upgrade_normal_case' probability='100'  type='ts_http'>
+<auth_request>
+	<protocol_version>1.1</protocol_version>
+	<model>HMC3000</model>
+	<SO>01</SO> 
+	<boxid>123456</boxid>
+	<sc_no></sc_no>
+	<MAC>01:sd</MAC>
+</auth_request>
+<request>
+	<dyn_variable name="session_id" re='&ltsession_id&gt(.*)&lt/session_id&gt'>
+	<dyn_variable name="challenge_key" re='&ltchallenge_key&gt(.*)&lt/challenge_key&gt'>
+	<http url='' method='POST' version='1.1' contents='auth_request'>
+</request>

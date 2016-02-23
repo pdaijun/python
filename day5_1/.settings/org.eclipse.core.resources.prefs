@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//model/admin.py=utf-8
+encoding//mysql/helpmysql.py=utf-8
+encoding//sock/client.py=utf-8
+encoding//sock/server.py=utf-8
+encoding/config.py=utf-8
+encoding/index.py=utf-8

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    </head>
+    <body>
+    
+    	<h1>{{user}}</h1>
+    	
+    	<table border='1'>
+    		{% for item in data %}
+    			<tr >
+    				<td>{{item.id}}</td>
+    				<td>{{item.hostname}}</td>
+    				<td>{{item.create_time}}</td>
+    				<td>{{item.update_time}}</td>
+    			</tr>
+    			
+    		
+    		{% endfor %}
+    	</table>
+    		{% if user %}
+    			<h1>真</h1>
+    		{% else %}
+    			<h1>假</h1>
+    		{%endif%}
+    		
+    		
+    		{% ifequal user 'daijunaa' %}
+    			<h1>真</h1>
+    		{% else %}
+    			<h1>假</h1>
+    		{%endifequal%}
+    	
+    	
+    
+    
+    
+    </body>
+</html>

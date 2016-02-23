@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    	<style>    		body	
+    		{ font-size:.85em;
+    		font-family:"Trebuchet MS",Verdana,Helvetica;
+    		color:#232323;
+    		background-color:#fff;
+    		}
+    		#Pageing A{ background-color:#008844;
+    		border:1px solid white;
+    		text-decoration:none;color:white;padding:.1em .6em .2em .6em}
+    		#Pageing A.selectd{background-color:#AA7700;}		
+    	</style>    
+    </head>
+    <body>     	
+    <h1>主机信息</h1>
+    <table border='1'>
+    {% for item in data %}
+    	<tr>
+    		<td>{{ item.HostName }}</td>
+    		<td>{{ item.IP }}</td>
+    	</tr>    
+    {%endfor%}    
+    </table>
+    <div>总数  {{count}}</div>
+    <div id="Pageing">{{pagess}}</div>        
+    </body>
+</html>
