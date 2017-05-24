@@ -1,0 +1,1 @@
+./dtunnel -reg test_5902 -clientkey test_5902 -addip 192.168.10.250:22 -remote teraee.com:8000 -buster teraee.com:8018 -ssl=false -key=e87cf73c-0bf4-4bd1-8ea3-f4ae77de8e90
